@@ -1,0 +1,72 @@
+.Card{
+    margin: 1vw 0;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+    padding: 1rem;
+    color: #596060;
+    /* width: 47%; */
+}
+.Card-Header:hover {
+    cursor: pointer;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.Card-Title{
+    margin-bottom: 0;
+}
+
+.Card-SubTitle{
+    color: #888786;
+}
+
+.Card-Body i{
+    color: #58a49c;
+}
+
+.Card-Date .col-3{
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.Cart-Footer .btn{
+    min-width: 9rem;
+}
+
+.Cart-Footer .btn-primary{
+    background-color: #01b1be;
+    border-color: #01b1be;
+}
+
+.Cart-Footer .btn-primary:hover{
+    background-color: #198996;
+    border-color: #198996;
+}
+.Cart-Footer .btn-primary:not(.disabled):active{
+    background-color: #198996;
+    border-color: #198996;
+}
+
+.Cart-Footer .btn-outline-secondary{
+    background-color: transparent;
+    border-color: #01b1be;
+}
+
+.Cart-Footer .btn-outline-secondary:hover{
+    background-color: #198996;
+    border-color: #198996;
+}
+.Cart-Footer .btn-outline-secondary:not(.disabled):active{
+    background-color: #198996;
+    border-color: #198996;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) { 
+    .Cart-Footer .btn {
+        min-width: 7.5rem;
+    }
+}

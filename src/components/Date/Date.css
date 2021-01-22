@@ -1,0 +1,23 @@
+.Date{
+    background-color: #f8f8f8;
+    border: 1px solid #8e94a4;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    /* max-width: 3em;
+    max-height: 2em; */
+} 
+.Date:hover {
+    cursor: pointer;
+    background-color: #55cbc2;
+    color: #fff;
+}
+
+.Date.active{
+    background-color: #55cbc2;
+    color: #fff;
+}
+
+.Date p {
+        margin-top: 0.5rem;
+        margin-bottom: .5rem;
+}
