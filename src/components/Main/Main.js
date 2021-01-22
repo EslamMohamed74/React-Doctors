@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Title from '../Title/Title'
 import Card from '../Card/Card'
+import PaginationComponent from '../PaginationComponent/PaginationComponent'
 import { Accordion } from 'react-bootstrap'
 import { doctors } from '../../data/doctors'
 import './Main.css'
@@ -42,6 +43,11 @@ const Main = () => {
                             {cardLeft}
                             </div>
                         </Accordion>
+                    </div>
+                </div>
+                <div className="row mt-3 mb-5">
+                    <div className="col-12  d-flex justify-content-center">
+                        <PaginationComponent />
                     </div>
                 </div>
             </div>
