@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Doctors/static/css/main.0f7c2829.chunk.css",
+    "main.js": "/React-Doctors/static/js/main.50deb8f8.chunk.js",
+    "main.js.map": "/React-Doctors/static/js/main.50deb8f8.chunk.js.map",
+    "runtime-main.js": "/React-Doctors/static/js/runtime-main.778d80da.js",
+    "runtime-main.js.map": "/React-Doctors/static/js/runtime-main.778d80da.js.map",
+    "static/css/2.150d169a.chunk.css": "/React-Doctors/static/css/2.150d169a.chunk.css",
+    "static/js/2.c906bda3.chunk.js": "/React-Doctors/static/js/2.c906bda3.chunk.js",
+    "static/js/2.c906bda3.chunk.js.map": "/React-Doctors/static/js/2.c906bda3.chunk.js.map",
+    "static/js/3.4860ed58.chunk.js": "/React-Doctors/static/js/3.4860ed58.chunk.js",
+    "static/js/3.4860ed58.chunk.js.map": "/React-Doctors/static/js/3.4860ed58.chunk.js.map",
+    "index.html": "/React-Doctors/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/React-Doctors/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.0f7c2829.chunk.css.map": "/React-Doctors/static/css/main.0f7c2829.chunk.css.map",
+    "static/js/2.c906bda3.chunk.js.LICENSE.txt": "/React-Doctors/static/js/2.c906bda3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.778d80da.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.c906bda3.chunk.js",
+    "static/css/main.0f7c2829.chunk.css",
+    "static/js/main.50deb8f8.chunk.js"
+  ]
+}
