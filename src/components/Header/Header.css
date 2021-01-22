@@ -1,0 +1,121 @@
+.navbar{
+    background-color: #1eb9c5;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.75);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,1);
+}
+.fa-chevron-down{
+    display: none;
+}
+
+.nav-link.active .fa-chevron-down{
+    display: inline-block;
+}
+
+.nav-link.active:after {
+    content: ""; 
+    display: block;
+    margin: 0 .75vw 0 .5vw;
+    width: 60%; 
+    padding-top: 5px;
+    border-bottom: 2px solid white; 
+}
+
+.icon{
+    font-size: 1.35rem;
+}
+
+.icon.nav-link.active:after {
+    padding-top: 0px;
+    border-bottom: 0px 
+}
+
+.navbar-nav .dropdown-menu{
+    text-align: right;
+}
+
+#collasible-nav-dropdown{
+    padding-top: 0.8rem;
+}
+
+#up_arrow {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left: -84%;
+    top: -15px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-menu {
+    top: 135%;
+    left: -110%;
+}
+
+.NavDropdown-Title{
+    color: #596060;
+}
+
+.NavDropdown-SubTitle,.NavDropdown-Body {
+    color: #888786;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 340px;
+}
+.dropdown-item.active, .dropdown-item:active,.dropdown-item.active, .dropdown-item:hover {
+    background-color: #55cbc2;
+}
+.dropdown-item:active p,.dropdown-item:active small,.dropdown-item:hover p,.dropdown-item:hover small{
+    color: #fff;
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .nav-link.active:after {
+        
+        width: 20%; 
+    }
+    .dropdown-item{
+        width: 355px;
+        white-space: pre-wrap;
+    }
+    .dropdown-menu{
+        width: 350px;
+    }
+    #up_arrow {
+        left: -5%;
+        top: -15px;
+    }
+    .NavDropdown-SubTitle,.NavDropdown-Body{
+        width: 305px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) and (max-width: 991.98px) { 
+    .dropdown-item{
+        width: 355px;
+        white-space: pre-wrap;
+    }
+    .dropdown-menu{
+        width: 350px;
+    }
+    #up_arrow {
+        left: -82%;
+        top: -15px;
+    }
+    .NavDropdown-SubTitle,.NavDropdown-Body{
+        width: 305px;
+    }
+}
+
+@media (max-width: 1199.98px) { }
