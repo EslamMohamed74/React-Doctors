@@ -14,7 +14,7 @@ Allow user to see doctors specialty and appointments available for reservation
 
 ## How To Open
 
-You can preview the page using [this](https://EslamMohamed74.github.io/react-doctors/) Link.
+You can preview the page using [this](https://EslamMohamed74.github.io/React-Doctors/) Link.
 
 Or you can download/clone the repository then 
 cd react-doctors.
