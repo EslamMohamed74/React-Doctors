@@ -16,8 +16,8 @@ Allow user to see doctors specialty and appointments available for reservation
 
 You can preview the page using [this](https://EslamMohamed74.github.io/React-Doctors/) Link.
 
-Or you can download/clone the repository then 
-cd react-doctors.
-npm install.
-npm start.
+Or you can download/clone the repository then <br />
+cd react-doctors. <br />
+npm install. <br />
+npm start. <br />
 Open ( http://localhost:3000 ) to view it in the browser.
